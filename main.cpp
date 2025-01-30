@@ -134,10 +134,17 @@ int main() {
         // cin>>exrate;
         // cout << "Same money in UZS: " << USD*exrate << endl;
     //Task nine:
-        int radius;
-        cout << "Enter the radius of the circle: ";
-        cin >> radius;
-        double area = 3.14159265 * radius * radius;
-        cout << "The area of the circle is: " << area << endl;
+        // int radius;
+        // cout << "Enter the radius of the circle: ";
+        // cin >> radius;
+        // double area = 3.14159265 * radius * radius;
+        // cout << "The area of the circle is: " << area << endl;
     //Task ten:
+        int radius;
+        int height;
+    cout << "Enter the radius of the circle: ";
+    cin >> radius;
+    cout << "Enter the height: ";
+    cin >> height;
+    cout << "Volume of the sylinder is: " << 3.14159265*pow(radius,2)* height << endl;
 }
