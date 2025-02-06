@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <list>
 #include <string>
 using namespace std;
 int main() {
@@ -140,11 +141,156 @@ int main() {
         // double area = 3.14159265 * radius * radius;
         // cout << "The area of the circle is: " << area << endl;
     //Task ten:
-        int radius;
-        int height;
-    cout << "Enter the radius of the circle: ";
-    cin >> radius;
-    cout << "Enter the height: ";
-    cin >> height;
-    cout << "Volume of the sylinder is: " << 3.14159265*pow(radius,2)* height << endl;
+    //     int radius;
+    //     int height;
+    // cout << "Enter the radius of the circle: ";
+    // cin >> radius;
+    // cout << "Enter the height: ";
+    // cin >> height;
+    // cout << "Volume of the sylinder is: " << 3.14159265*pow(radius,2)* height << endl;
+//Next lesson:
+    //First task:
+        // int number;
+        // cout << "Enter your number: ";
+        // cin >> number;
+        // if (number > 0) {
+        //     cout << number << " is positive." << endl;
+        // }
+        // else if (number == 0) {
+        //     cout << number << " is zero." << endl;
+        // }
+        // else {
+        //     cout << number << " is negative." << endl;
+        // }
+    //Second task:
+        // int number;
+        // cout << "Enter a number: ";
+        // cin >> number;
+        // if (number%2==0) {
+        //     cout << "The number is even" << endl;
+        // }
+        // else {
+        //     cout << "The number is odd" << endl;
+        // }
+    //Third task:
+        // int number1, number2;
+        // cout << "Enter two numbers: ";
+        // cin >> number1 >> number2;
+        // if (number1 > number2) {
+        //     cout << number1 << " is greater than " << number2 << endl;
+        // }
+        // else if (number1 == number2) {
+        //     cout << number1 << " is equal to " << number2 << endl;
+        // }
+        // else {
+        //     cout << number2 << " is greater than " << number1 << endl;
+        // }
+    //Fourth task:
+        // int number1, number2, number3;
+        // cout << "Enter three numbers: ";
+        // cin >> number1 >> number2 >> number3;
+        // if (number1 > number2) {
+        //     if (number1 > number3) {
+        //         cout << number1 << " is biggest" << endl;
+        //     }
+        //     else if (number1 == number3) {
+        //         cout << number1 << " is biggest" << endl;
+        //     }
+        //     else {
+        //         cout << number3 << " is biggest" << endl;
+        //     }
+        // }
+        // else if (number2 > number3) {
+        //     if (number2 > number1) {
+        //         cout << number2 << " is biggest" << endl;
+        //     }
+        //     else if (number2 == number1) {
+        //         cout << number2 << " is biggest" << endl;
+        //     }
+        //     else {
+        //         cout << number1 << " is biggest" << endl;
+        //     }
+        // }
+        // else {
+        //     if (number3 > number1) {
+        //         cout << number3 << " is biggest" << endl;
+        //     }
+        //     else if (number3 == number1) {
+        //         cout << number3 << " is biggest" << endl;
+        //     }
+        //     else {
+        //         cout << number1 << " is biggest" << endl;
+        //     }
+        // }
+    //Fifth task:
+        // int year;
+        // cout << "Enter a year: ";
+        // cin >> year;
+        // if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+        //     cout << year << " is a leap year" << endl;
+        // }
+        // else {
+        //     cout << year << " is not a leap year" << endl;
+        // }
+    //Sixth task:
+        // int speed;
+        // cout << "Enter your current speed. I repeat your speed, not velosity: ";
+        // cin >> speed;
+        // if (speed <= 20) {
+        //     cout << "Too slow";
+        // }
+        // else if (20 <= speed && speed >= 80) {
+        //     cout << "Too much";
+        // }
+        // else if (speed == 69) {
+        //     cout << "NIIIICE!!!";
+        // }
+        // else {
+        //     cout << "Just right";
+        // }
+    //Seventh Problem:
+        // int grd;
+        // cout<<"Enter Grade: ";
+        // cin>>grd;
+        // if (grd>=50 && grd<69 || grd>=70 && grd<=100) {
+        //     cout<<"Pass!";
+        // }
+        // else if(0<=grd && grd<50) {
+        //     cout<<"Fail!";
+        // }
+        // else if (grd == 69) {
+        //     cout<< "NIIICE!!!";
+        // }
+        // else {
+        //     cout<<"Syntax error!";
+        // }
+    //Eightth task:
+        // int number;
+        // cout << "Enter a number: ";
+        // cin >> number;
+        // if (number > 0) {
+        //     cout << number << " is positive." << endl;
+        // }
+        // else if (number < 0) {
+        //     cout << number << " is negative." << endl;
+        // }
+        // else {
+        //     cout << number << " is zero." << endl;
+        // }
+    //Nineth task:
+        // string input;
+        // cout<<"Intput a command: ";
+        // cin >> input;
+        // if(input == "g") {
+        //     cout<<"Go!"<<endl;
+        // }
+        // else if (input == "y") {
+        //     cout<<"Get ready!"<<endl;
+        // }
+        // else if (input == "r") {
+        //     cout<<"Stop"<<endl;
+        // }
+        // else {
+        //     cout<<"Wrong input!"<<endl;
+        // }
 }
