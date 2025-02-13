@@ -1,7 +1,4 @@
 #include <iostream>
-#include <iomanip>
-#include <list>
-#include <string>
 using namespace std;
 int main() {
     //First task:
@@ -73,10 +70,10 @@ int main() {
         // cout << "Student GPA: " << gpa << endl;
         // cout << "Student Fee : " << fee << endl;
     //Task three:
-//         float temperature;
-//         cout << "Enter temperature in Celcius: " << endl;
-//         cin >> temperature;
-//         cout << "Here's the same thing in Farenheit: " << (temperature*9/5)+32 << endl;
+        //float temperature;
+         //cout << "Enter temperature in Celcius: " << endl;
+         //cin >> temperature;
+         //cout << "Here's the same thing in Farenheit: " << (temperature*9/5)+32 << endl;
     //Task four:
         // float price;
         // int quantity;
@@ -293,4 +290,105 @@ int main() {
         // else {
         //     cout<<"Wrong input!"<<endl;
         // }
+//Next next lesson:
+    //Task1.1:
+        // for (int i = 1; i <= 10; i++) {
+        //     cout << i << endl;
+        // }
+    //Task1.2:
+        // int N;
+        // cout << "Enter the number: ";
+        // cin >> N;
+        // for (int i = 1; i <= N; i++) {
+        //     cout << i << endl;
+        // }
+        // if ( N == 69) {
+        //     cout << "Nice!" << endl;
+        // }
+    //Task1.3:
+        // int N;
+        // int sum;
+        // N = 10;
+        // sum = ((N+1)*N)/2;
+        // cout << sum << endl;
+    //Task1.4:
+        // int N;
+        // int sum;
+        // cout << "Enter the number: ";
+        // cin >> N;
+        // sum = ((N+1)*N)/2;
+        // cout << sum << endl;
+    //Task1.5:
+        // int N,sum,avg;
+        // N = 10;
+        // sum = ((N+1)*N)/2;
+        // avg = sum/N;
+        // cout << avg << endl;
+    //Task1.6:
+        // int N;
+        // float sum,avg;
+        // cout<<"Enter the number: ";
+        // cin >> N;
+        // sum = ((N+1)*N)/2;
+        // avg = sum/N;
+        // cout << avg << endl;
+        // if (N == 137) {
+        //     cout << "Nice!" << endl;
+        // }
+    //Task2.1:
+        //for (int i = 1; i <= 10; i=i+2) {cout << i << endl;}
+    //Task2.2:
+        //for (int i = 2; i <= 10; i=i+2) {cout << i << endl;}
+    //Task2.3:
+        // int N;
+        // cout << "Enter the number: ";
+        // cin >> N;
+        // for (int i = 1; i <= N; i=i+2) {
+        //     cout << i << endl;
+        // }
+        // if (N == 69) {
+        //     cout << "Nice!" << endl;
+        // }
+    //Task2.4:
+        // int N;
+        // cout << "Enter the number: ";
+        // cin >> N;
+        // for (int i = 2; i <= N; i=i+2) {
+        //     cout << i << endl;
+        // }
+    //Task2.5:
+        // int N;
+        // int n;
+        // N = 100;
+        // n = N/10;
+        // // cout << "Enter the number: ";
+        // // cin >> N;
+        // for (int i = 1; i <= n; i=i+1) {
+        //     cout << i*10 << endl;
+        // }
+    //Task2.6:
+        // int N;
+        // int n;
+        // cout << "Enter number: ";
+        // cin >> N;
+        // n = N/10;
+        // // cout << "Enter the number: ";
+        // // cin >> N;
+        // for (int i = 1; i <= n; i=i+1) {
+        //     cout << i*10 << endl;
+        // }
+    //Task2.7 that no one asked me to do and which doesn't even exist:
+            // int N;
+            // int n;
+            // float k;
+            // cout << "Enter the limit: ";
+            // cin >> N;
+            // cout << "Enter the divisor: ";
+            // cin >> k;
+            // n = N/k;
+            // for (int i = 1; i <= n; i=i+1) {
+            //     cout << i*k << endl;
+            // }
+    //Task3:
+
 }
