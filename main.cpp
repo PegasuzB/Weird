@@ -390,5 +390,71 @@ int main() {
             //     cout << i*k << endl;
             // }
     //Task3:
+//Week6(finaly I know which week it is):
+    //Task1a:
+        //int n=100,sum;
+        // for(int i=1;i<=n;i++) {
+        //     sum+=i;
+        // }
+        // cout<<"The sum of the given number is: "<<sum-1;
+    //Task1b:
+        // int n,sum=0;
+        // cout<<"Please enter a number:";
+        // cin>>n;
+        // while(n!=0) {
+        //     sum+=n;
+        //     n--;
+        // }
+        // cout<<"The sum up to given number is: "<<sum;
+    //Task2a:
+        // int n=0,p=2;
+        // cout<<"First ten prime numbers are: ";
+        // for(;n<10;p++) {
+        //     bool isPrime = true;
+        //     for (int i=2;i*i<=p;i++) {
+        //         if (p%i==0) {
+        //             isPrime = false;
+        //             break;
+        //         }
+        //     }
+        //     if (isPrime) {
+        //         cout<<p<<" ";
+        //         n++;
+        //     }
+        // }
+    //Task2b:
+        // int n=0,p=2,L;
+        // cout<<"Please enter a number:";
+        // cin>>L;
+        // cout<<"First "<<L<<" prime numbers are: ";
+        // for(;n<L;p++) {
+        //     bool isPrime = true;
+        //     for (int i=2;i*i<=p;i++) {
+        //         if (p%i==0) {
+        //             isPrime = false;
+        //             break;
+        //         }
+        //     }
+        //     if (isPrime) {
+        //         cout<<p<<" ";
+        //         n++;
+        //     }
+        // }
+    //Task3:
+        // int x;
+        // cout<<"Enter the number : ";
+        // cin>>x;
+        // while(x!=1) {
+        //     if (x%2==0) {
+        //         x=x/2;
+        //
+        //     }
+        //     else if(x%2!=0) {
+        //         x=3*x+1;
+        //     }
+        //     cout<<x<<" ";
+        // }
+        //We should prove that for any given n{int n>0} this sequence ends with "4 2 1". If you can prove it right or wrong you will get 120M Japanese Yen which is over 1M USD right now.
+    //Task4:
 
 }
