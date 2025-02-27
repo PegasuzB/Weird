@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
+//First lab:
     //First task:
 //         cout << "Hello World!" << endl;
 //         string name;
@@ -456,13 +457,55 @@ int main() {
         // }
         //We should prove that for any given n{int n>0} this sequence ends with "4 2 1". If you can prove it right or wrong you will get 120M Japanese Yen which is over 1M USD right now.[20/02/2025]
     //Task4:
-        int number,count=0;
-        cout<<"Enter a number: ";
-        cin>>number;
-        while(number!=0) {
-            number=number%10;
-            count++;
-        }
-        cout<<count<<endl;
-
-}
+        // int number;
+        // int count=0;
+        // cout<<"Enter a number: ";
+        // cin>>number;
+        // while(number>0) {
+        // number=number/10;
+        //     count++;
+        // }
+        // cout<<count<<endl;
+        //I don't know why it shows only up to 10 digits.
+//Week7 apparently:
+    //Task1:
+        // int O_p,O_q,P_p = 0,B_p = 0,S_p = 0;
+        // char O;
+        // cout<<"Welcome to our cafe!"<<endl;
+        // cout<<"Menu:\n P -- Pizza $10\n B -- Burger $8\n S -- Salad $5\n -----------------------------\n C -- Complete ordering\n E -- Exit"<<endl;
+        // do {
+        //     cout<<"Please enter your order:";
+        //     cin>>O;
+        //
+        //     O_p = P_p + B_p + S_p;
+        //     switch (O) {
+        //         case 'P':
+        //             cout<<"How many Pizzas do you want?";
+        //             cin>>O_q;
+        //             P_p=O_q*10;
+        //             break;
+        //         case 'B':
+        //             cout<<"How many Burgers do you want?";
+        //             cin>>O_q;
+        //             B_p=O_q*8;
+        //             break;
+        //         case 'S':
+        //             cout<<"How many Salads do you want?";
+        //             cin>>O_q;
+        //             S_p=O_q*5;
+        //             break;
+        //         case 'C':
+        //             cout<<"Thank you for coming to us. Your order is "<< O_p <<" dollars.";
+        //             break;
+        //         case 'E':
+        //             cout<<"Okay, come next time!";
+        //             break;
+        //         default:
+        //             cout<<"Please enter a valid option!"<<endl;
+        //             break;
+        //     }
+        //     if (O_p == 69) {
+        //         cout<<"HELL YEAH!!! NIIICE!!!"<<endl;
+        //     }
+        // }while(O!='C'&&O!='E');
+return 0;}
