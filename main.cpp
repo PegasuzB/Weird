@@ -456,5 +456,13 @@ int main() {
         // }
         //We should prove that for any given n{int n>0} this sequence ends with "4 2 1". If you can prove it right or wrong you will get 120M Japanese Yen which is over 1M USD right now.
     //Task4:
+        int number,count=0;
+        cout<<"Enter a number: ";
+        cin>>number;
+        while(number!=0) {
+            number=number%10;
+            count++;
+        }
+        cout<<count<<endl;
 
 }
