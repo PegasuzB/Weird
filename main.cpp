@@ -454,7 +454,7 @@ int main() {
         //     }
         //     cout<<x<<" ";
         // }
-        //We should prove that for any given n{int n>0} this sequence ends with "4 2 1". If you can prove it right or wrong you will get 120M Japanese Yen which is over 1M USD right now.
+        //We should prove that for any given n{int n>0} this sequence ends with "4 2 1". If you can prove it right or wrong you will get 120M Japanese Yen which is over 1M USD right now.[20/02/2025]
     //Task4:
         int number,count=0;
         cout<<"Enter a number: ";
