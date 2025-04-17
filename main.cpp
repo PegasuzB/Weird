@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 int main() {
 //First lab:
@@ -508,4 +509,25 @@ int main() {
         //         cout<<"HELL YEAH!!! NIIICE!!!"<<endl;
         //     }
         // }while(O!='C'&&O!='E');
+//Week 14(WHAT THA HAAIILLL????!!!)
+    //Task1
+        // ofstream fout("output.txt");
+        // fout<<"Hello, File!";
+        // fout.close();
+    //Task2
+        // ifstream infile("input.txt");
+        // string line;
+        // while (getline(infile, line)) {
+        //     cout << line << endl;
+        // }
+        // infile.close();
+    //Task3
+        // int age;
+        // string name;
+        // ofstream fout("user.txt");
+        // cin >> age >> name;
+        // fout<<name<<": "<<age<<endl;
+        // fout.close();
+    //Task4
+
 return 0;}
